@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Pierrou U3</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Muskö Idyllen</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">HEM</a></li>
+            <li><a href="/stugor.html">STUGOR</a>
+                <ul>
+                    <li><a href="/LokalNAv/storastugan.html">Stora stugan</a></li>
+                    <li><a href="/LokalNAv/lillastugan.html">Lilla stugan</a></li>
+                    <li><a href="/LokalNAv/friggeboden.html">Friggeboden</a></li>
+                </ul>
+            </li>
+            <li><a href="/info.html">INFO</a></li>
+            <li><a href="/formular.html">BOKA</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="h2">Boka din vistelse</h2>
+        <div class="formular">
+            <p>Fyll i dina kontaktuppgifter och önskad vistelse, så hör vi av oss!</p>
+            <form class="kontaktinfo" name="kontaktinfo" method="post">
+                <div>
+                    <label for="name"> Namn </label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Mail adress </label>
+                    <input type="text" name="email" id="email">
+                    <label for="message">Fyll i vilka datum samt typ av stuga vill du boka</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <input type="submit" value="Skicka">
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
